@@ -1,0 +1,2 @@
+# Shcool-
+Projects and Exercises 
