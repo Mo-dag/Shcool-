@@ -50,7 +50,7 @@ print_string:
     mv s1, a1   # Length
     mv s0, a0   # Adress
 loop:
-    # Skapar jag villkor till loopen : 
+    # Här skapar jag villkor för loopen : 
     beqz s1, slut # Om lengden blir noll hoppa intern till en funk som heter slut som avslutar print_string.
 
     lbu a0, 0(s0)   # a0 används som argument till funk.
